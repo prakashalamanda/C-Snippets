@@ -1,0 +1,456 @@
+sites = `[
+  {
+    "siteid": "S1",
+    "sitename": "San Francisco, CA",
+    "statuscode": "1",
+    "rooms": [
+      {
+        "roomid": "R1",
+        "roomname": "Room1",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R2",
+        "roomname": "Room2",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R3",
+        "roomname": "Room3",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R4",
+        "roomname": "Room4",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R5",
+        "roomname": "Room5",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "siteid": "S2",
+    "sitename": "San Jose, CA",
+    "statuscode": "1",
+    "rooms": [
+      {
+        "roomid": "R1",
+        "roomname": "Room1",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R2",
+        "roomname": "Room2",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "siteid": "S3",
+    "sitename": "Austin, TX",
+    "statuscode": "1",
+    "rooms": [
+      {
+        "roomid": "R1",
+        "roomname": "Room1",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "siteid": "S4",
+    "sitename": "Dallas, TX",
+    "statuscode": "1",
+    "rooms": [
+      {
+        "roomid": "R1",
+        "roomname": "Room1",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R2",
+        "roomname": "Room2",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R3",
+        "roomname": "Room3",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R4",
+        "roomname": "Room4",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "siteid": "S5",
+    "sitename": "Nashville, TN",
+    "statuscode": "1",
+    "rooms": [
+      {
+        "roomid": "R1",
+        "roomname": "Room1",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      },
+      {
+        "roomid": "R2",
+        "roomname": "Room2",
+        "devices": [
+          {
+            "deviceid": "d1",
+            "devicename": "Degrader1",
+            "statuscode": "1"
+          },
+          {
+            "deviceid": "d2",
+            "devicename": "Steering Magnet",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d3",
+            "devicename": "Dipole",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d4",
+            "devicename": "Profiler",
+            "statuscode": "0"
+          },
+          {
+            "deviceid": "d5",
+            "devicename": "Collimator",
+            "statuscode": "0"
+          }
+        ]
+      }
+    ]
+  }
+]`;

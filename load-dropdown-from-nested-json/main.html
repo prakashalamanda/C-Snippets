@@ -1,0 +1,23 @@
+<select id="sites" onchange="updateRooms()">
+    <option value="" disabled selected>Select site</option>
+</select>
+
+<select id="rooms" onchange="updateDevices()">
+    <option value="" disabled selected>Select room</option>
+</select>
+
+<select id="devices">
+    <option value="" disabled selected>Select device</option>
+</select>
+
+<input type="button" value="Submit" onclick="getIds()" />
+
+<div id="displayResults">
+    <p>Site id: <span id="selectedSite"></span></p>
+    <p>Room id: <span id="selectedRoom"></span></p>
+    <p>Device id: <span id="selectedDevice"></span></p>
+</div>
+
+
+<script type="text/javascript" src="sitedata.json"></script>
+<script type="text/javascript" src="main.js"></script>
